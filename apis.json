@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Bookeo",
+	"description": "This is a repository of bookeo APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/bookeo.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://bookeo.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Bookeo",
+			"x-api-slug": "bookeo",
+			"description": "Bookeo provides a leading online booking and scheduling system for tours, classes, and appointments, to help you save money and time. Click to learn more!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg",
+			"humanURL": "https://www.bookeo.com",
+			"baseURL": "https://api.bookeo.com//v2",
+			"tags": "Bookeo",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/bookeo/master/_listings/bookeo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Bookeo",
+	"include": [
+		{
+			"name": "Bookeo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/bookeo/master/_listings/bookeo/apis.yaml"
+		}
+	]
+}
